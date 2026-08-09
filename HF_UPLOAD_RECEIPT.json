@@ -1,0 +1,13 @@
+{
+  "checkpoint_step": 1777105,
+  "checkpoint_upload_commit_sha": "a6850e897f3e32d45e6ed89ba1403a774c2db7d7",
+  "code_repo": "OpenTransformer/AGILLM-4.3-EGGROLL-Experimental",
+  "completed_utc": "2026-08-09T23:20:24Z",
+  "repo": "MarxistLeninist/AGILLM-4.3-EGGROLL-Experimental",
+  "schema": "agillm43.eggroll.hf-upload.v1",
+  "status": "complete",
+  "verified_remote_file_count": 45,
+  "verified_remote_lfs_file_count": 36,
+  "verified_remote_total_bytes": 7290562423,
+  "verified_utc": "2026-08-09T23:22:13Z"
+}
