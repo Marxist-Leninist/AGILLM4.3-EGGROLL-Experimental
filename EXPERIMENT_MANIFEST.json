@@ -325,6 +325,12 @@
     "url": "https://eshyperscale.github.io/imgs/paper.pdf"
   },
   "production_trainer_untouched": true,
+  "publication": {
+    "checkpoint_storage_note": "OpenTransformer public storage allowance reached; checkpoint package mirrored under the second authorised account.",
+    "github_repo": "Marxist-Leninist/AGILLM4.3-EGGROLL-Experimental",
+    "huggingface_checkpoint_repo": "MarxistLeninist/AGILLM-4.3-EGGROLL-Experimental",
+    "huggingface_code_repo": "OpenTransformer/AGILLM-4.3-EGGROLL-Experimental"
+  },
   "schema": "agillm43.eggroll.experiment.bundle.v1",
   "tests": {
     "accepted_update_changes_router": "passed",
