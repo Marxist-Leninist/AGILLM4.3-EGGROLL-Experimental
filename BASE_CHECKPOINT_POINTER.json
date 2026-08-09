@@ -1,0 +1,7 @@
+{
+  "checkpoint": "pretrain_step01777105_from01739752_20260809T2256Z.pt",
+  "checkpoint_main_sha256": "72ee3cf3ae4e3dedb22f16d8c2d21c80c66e0bdcd2001f606f030886cc98e2af",
+  "huggingface_repo": "OpenTransformer/AGILLM-4.3-EGGROLL-Experimental",
+  "seen_tok": 87348264960,
+  "step": 1777105
+}

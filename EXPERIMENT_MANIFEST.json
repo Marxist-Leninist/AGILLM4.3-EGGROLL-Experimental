@@ -1,0 +1,337 @@
+{
+  "base_checkpoint": {
+    "checkpoint_main_sha256": "72ee3cf3ae4e3dedb22f16d8c2d21c80c66e0bdcd2001f606f030886cc98e2af",
+    "checkpoint_name": "pretrain_step01777105_from01739752_20260809T2256Z.pt",
+    "checkpoint_record_sha256": "6e2ade2efbd7cb9fc593d21c961bfd681e3de211ce1512af4720f1d7a28eac90",
+    "linked_bytes": 7289299303,
+    "linked_files": [
+      {
+        "hardlink_count": 2,
+        "inode": 2152138551,
+        "mtime_ns": 1786316227562646650,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt",
+        "size_bytes": 17656469,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813348,
+        "mtime_ns": 1786316191172196589,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/ar.pt",
+        "size_bytes": 608294229,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/ar.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078812977,
+        "mtime_ns": 1786316170872509623,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_base.pt",
+        "size_bytes": 608291648,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_base.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078812978,
+        "mtime_ns": 1786316172958477242,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0000.pt",
+        "size_bytes": 117688310,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0000.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813106,
+        "mtime_ns": 1786316173573467706,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0001.pt",
+        "size_bytes": 116926946,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0001.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813320,
+        "mtime_ns": 1786316174189458157,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0002.pt",
+        "size_bytes": 116951640,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0002.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813321,
+        "mtime_ns": 1786316174782448969,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0003.pt",
+        "size_bytes": 116925294,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0003.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813322,
+        "mtime_ns": 1786316175402439368,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0004.pt",
+        "size_bytes": 117023075,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0004.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813323,
+        "mtime_ns": 1786316176010429955,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0005.pt",
+        "size_bytes": 116985103,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0005.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813324,
+        "mtime_ns": 1786316176637420254,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0006.pt",
+        "size_bytes": 117359688,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0006.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813325,
+        "mtime_ns": 1786316177226411144,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0007.pt",
+        "size_bytes": 117606156,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0007.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813326,
+        "mtime_ns": 1786316177844401590,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0008.pt",
+        "size_bytes": 117453543,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0008.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813327,
+        "mtime_ns": 1786316178439392397,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0009.pt",
+        "size_bytes": 117283247,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0009.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813328,
+        "mtime_ns": 1786316179058382835,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0010.pt",
+        "size_bytes": 117416273,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0010.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813331,
+        "mtime_ns": 1786316179645373773,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0011.pt",
+        "size_bytes": 117406200,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0011.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813332,
+        "mtime_ns": 1786316180274364067,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0012.pt",
+        "size_bytes": 123868348,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0012.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813333,
+        "mtime_ns": 1786316180883354672,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0013.pt",
+        "size_bytes": 120970123,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0013.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813334,
+        "mtime_ns": 1786316181510345006,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0014.pt",
+        "size_bytes": 117773931,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0014.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813335,
+        "mtime_ns": 1786316182107335805,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0015.pt",
+        "size_bytes": 116992899,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0015.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813336,
+        "mtime_ns": 1786316182716326424,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0016.pt",
+        "size_bytes": 117232113,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0016.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813337,
+        "mtime_ns": 1786316183313317231,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0017.pt",
+        "size_bytes": 116925166,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0017.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813338,
+        "mtime_ns": 1786316183923307842,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0018.pt",
+        "size_bytes": 117107553,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0018.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078812689,
+        "mtime_ns": 1786316184533298459,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0019.pt",
+        "size_bytes": 116997133,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0019.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813340,
+        "mtime_ns": 1786316185149288986,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0020.pt",
+        "size_bytes": 117031897,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0020.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813341,
+        "mtime_ns": 1786316185753279702,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0021.pt",
+        "size_bytes": 116875309,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0021.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813342,
+        "mtime_ns": 1786316186356270438,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0022.pt",
+        "size_bytes": 117048043,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0022.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813343,
+        "mtime_ns": 1786316186973260961,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0023.pt",
+        "size_bytes": 117318683,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0023.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813344,
+        "mtime_ns": 1786316187565251875,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0024.pt",
+        "size_bytes": 121464621,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0024.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813345,
+        "mtime_ns": 1786316188180242438,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0025.pt",
+        "size_bytes": 121495773,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0025.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813346,
+        "mtime_ns": 1786316188774233328,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0026.pt",
+        "size_bytes": 121426670,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0026.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813347,
+        "mtime_ns": 1786316189397223778,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0027.pt",
+        "size_bytes": 121615300,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/core_block_0027.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813657,
+        "mtime_ns": 1786316197775095754,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/nat.pt",
+        "size_bytes": 608294229,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/nat.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813658,
+        "mtime_ns": 1786316206602961678,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/opt.pt",
+        "size_bytes": 1511797598,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/opt.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813656,
+        "mtime_ns": 1786316194444146563,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/sat.pt",
+        "size_bytes": 608303941,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/sat.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 1078813659,
+        "mtime_ns": 1786316211188892356,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/scaler.pt",
+        "size_bytes": 149,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.shards/scaler.pt"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 2153099677,
+        "mtime_ns": 1786316260440161487,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt.tokenizer.json",
+        "size_bytes": 17465460,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.pt.tokenizer.json"
+      },
+      {
+        "hardlink_count": 2,
+        "inode": 2152144844,
+        "mtime_ns": 1786316260777156569,
+        "relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.provenance.json",
+        "size_bytes": 26543,
+        "source_path": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/pretrain_step01777105_from01739752_20260809T2256Z.provenance.json"
+      }
+    ],
+    "package_format": "block-sharded",
+    "saved_at": "2026-08-09T22:57:40Z",
+    "seen_tok": 87348264960,
+    "snapshot_relative_path": "base_checkpoint/pretrain_step01777105_from01739752_20260809T2256Z.pt",
+    "source_pointer": "/workspace/agillm43_production_v14/production_quality_v18_hard_spike_gates/checkpoints/training_latest.json",
+    "step": 1777105
+  },
+  "created_utc": "2026-08-09T23:11:11Z",
+  "experimental_code": {
+    "default_enabled": false,
+    "filename": "agillm43_singlefile_intelligence_v23_eggroll_experimental.py",
+    "lines": 25328,
+    "profile": "intelligence-v23-eggroll-experimental",
+    "sha256": "f487cf2fbb38b69bf9f19322759176c3e4b66636a6375fc30759434be22aab80",
+    "size_bytes": 1216670,
+    "source_path": "/workspace/agillm43_production_v14/runtime/agillm43_singlefile_intelligence_v23_eggroll_experimental.py"
+  },
+  "paper": {
+    "method": "Evolution Guided GeneRal Optimisation via Low-rank Learning (EGGROLL)",
+    "title": "Evolution Strategies at the Hyperscale",
+    "url": "https://eshyperscale.github.io/imgs/paper.pdf"
+  },
+  "production_trainer_untouched": true,
+  "schema": "agillm43.eggroll.experiment.bundle.v1",
+  "tests": {
+    "accepted_update_changes_router": "passed",
+    "antithetic_pair_symmetry_max_abs": 9.313225746154785e-10,
+    "default_off_bitwise_equal_max_abs": 0.0,
+    "forced_rejection_exact_rollback": "passed",
+    "python_compile": "passed",
+    "quadratic_descent_smoke": "passed"
+  }
+}
