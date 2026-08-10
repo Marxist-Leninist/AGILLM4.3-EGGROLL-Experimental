@@ -1,6 +1,7 @@
 name: v25 trainer integration index
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - experiment/v25-fused-router
