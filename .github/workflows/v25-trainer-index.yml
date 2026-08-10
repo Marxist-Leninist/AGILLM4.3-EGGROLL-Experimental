@@ -1,0 +1,76 @@
+name: v25 trainer integration index
+
+on:
+  push:
+    branches:
+      - experiment/v25-fused-router
+    paths:
+      - .github/workflows/v25-trainer-index.yml
+      - experiments/v25-fused-router/index_singlefile_trainer.py
+
+permissions:
+  contents: write
+
+concurrency:
+  group: v25-trainer-index-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  index-oversized-trainer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out experimental branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Build compact trainer integration reports
+        run: |
+          python experiments/v25-fused-router/index_singlefile_trainer.py \
+            agillm43_singlefile_intelligence_v24_eggroll_fixed_tokens.py \
+            --markdown experiments/v25-fused-router/generated/TRAINER_ROUTER_INDEX.md \
+            --json experiments/v25-fused-router/generated/trainer_symbol_index.json \
+            --context 8 \
+            --max-windows 180 \
+            --max-lines 7000
+
+      - name: Verify reports
+        run: |
+          test -s experiments/v25-fused-router/generated/TRAINER_ROUTER_INDEX.md
+          test -s experiments/v25-fused-router/generated/trainer_symbol_index.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("experiments/v25-fused-router/generated/trainer_symbol_index.json")
+          report = json.loads(path.read_text())
+          assert report["bytes"] > 1_000_000, report["bytes"]
+          assert report["lines"] > 1_000, report["lines"]
+          assert report["ast_parse_error"] is None, report["ast_parse_error"]
+          assert report["relevant_definition_count"] > 0
+          print(json.dumps({
+              "sha256": report["sha256"],
+              "bytes": report["bytes"],
+              "lines": report["lines"],
+              "definitions": report["definition_count"],
+              "relevant_definitions": report["relevant_definition_count"],
+              "windows": len(report["global_windows"]),
+          }, indent=2))
+          PY
+
+      - name: Commit generated integration map
+        run: |
+          if git diff --quiet -- \
+            experiments/v25-fused-router/generated/TRAINER_ROUTER_INDEX.md \
+            experiments/v25-fused-router/generated/trainer_symbol_index.json; then
+            echo "Generated integration map is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            experiments/v25-fused-router/generated/TRAINER_ROUTER_INDEX.md \
+            experiments/v25-fused-router/generated/trainer_symbol_index.json
+          git commit -m "chore: index v24 trainer integration points [skip ci]"
+          git push
