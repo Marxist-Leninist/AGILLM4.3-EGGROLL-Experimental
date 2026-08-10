@@ -1,0 +1,3 @@
+[tokenizer] transformers=4.48.0, tokenizers=0.21.0
+[tokenizer] Health check PASSED - spaces preserved in roundtrip
+{"calibrated_sigmas": {"blocks.0.ff": 0.03, "blocks.13.ff": 0.001, "blocks.7.ff": 0.0003}, "fixed_token_cycle": [11, 22, 33, 11, 22, 33, 11, 22], "fixed_token_overflow_rejected": true, "measurable_gain_acceptance": true, "no_change_acceptance": false, "pair_symmetry_max_abs": 9.313225746154785e-10, "population": 4, "quadratic_loss_after": 1.9259085655212402, "quadratic_loss_before": 1.9482446908950806, "rank": 1, "schema": "agillm43.eggroll.sidecar.v3", "status": "smoke_ok"}

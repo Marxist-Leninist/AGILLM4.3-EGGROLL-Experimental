@@ -1,0 +1,2078 @@
+{
+  "branches": {
+    "sigma_0p0003": {
+      "metrics": {
+        "details": [
+          {
+            "base_router_margin_median": 1.037109375,
+            "baseline_search_ce": 11.121328353881836,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1477,
+                1520
+              ],
+              "search_start": 1435,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.0010270247576045222,
+            "event": 0,
+            "global_step": 1777106,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.0.ff.router"
+          },
+          {
+            "base_router_margin_median": 8.87890625,
+            "baseline_search_ce": 11.121261596679688,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                392,
+                435
+              ],
+              "search_start": 350,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.010427929752040654,
+            "event": 1,
+            "global_step": 1777107,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.1.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.2333984375,
+            "baseline_search_ce": 11.121347427368164,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1599,
+                1642
+              ],
+              "search_start": 1557,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.0012607229982677381,
+            "event": 2,
+            "global_step": 1777108,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.2.ff.router"
+          },
+          {
+            "base_router_margin_median": 6.59375,
+            "baseline_search_ce": 11.121387481689453,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                92,
+                135
+              ],
+              "search_start": 50,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.0020796358076040633,
+            "event": 3,
+            "global_step": 1777109,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.3.ff.router"
+          },
+          {
+            "base_router_margin_median": 3.75,
+            "baseline_search_ce": 28.121335983276367,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1699,
+                1742
+              ],
+              "search_start": 1657,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.0038599080580752343,
+            "event": 4,
+            "global_step": 1777110,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.4.ff.router"
+          },
+          {
+            "base_router_margin_median": 4.3359375,
+            "baseline_search_ce": 11.121252059936523,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                79,
+                122
+              ],
+              "search_start": 37,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.0028271281989873387,
+            "event": 5,
+            "global_step": 1777111,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.5.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.60546875,
+            "baseline_search_ce": 32.12126541137695,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1274,
+                1317
+              ],
+              "search_start": 1232,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.002271701112476876,
+            "event": 6,
+            "global_step": 1777112,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.6.ff.router"
+          },
+          {
+            "base_router_margin_median": 10.53125,
+            "baseline_search_ce": 11.121358871459961,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1517,
+                1560
+              ],
+              "search_start": 1475,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.003338965516377357,
+            "event": 7,
+            "global_step": 1777113,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.7.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.265625,
+            "baseline_search_ce": 11.121289253234863,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1765,
+                1808
+              ],
+              "search_start": 1723,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.001540205279525253,
+            "event": 8,
+            "global_step": 1777114,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.8.ff.router"
+          },
+          {
+            "base_router_margin_median": 7.3203125,
+            "baseline_search_ce": 11.12135124206543,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                28,
+                71
+              ],
+              "search_start": 1907,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.004016838858660776,
+            "event": 9,
+            "global_step": 1777115,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.9.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.75,
+            "baseline_search_ce": 11.121150970458984,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1805,
+                1848
+              ],
+              "search_start": 1763,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.0012092486867913976,
+            "event": 10,
+            "global_step": 1777116,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.10.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.0625,
+            "baseline_search_ce": 11.121291160583496,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1174,
+                1217
+              ],
+              "search_start": 1132,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.0029742852493654937,
+            "event": 11,
+            "global_step": 1777117,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.11.ff.router"
+          },
+          {
+            "base_router_margin_median": 0.916015625,
+            "baseline_search_ce": 11.121212005615234,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1207,
+                1250
+              ],
+              "search_start": 1165,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.0010597227301332168,
+            "event": 12,
+            "global_step": 1777118,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.12.ff.router"
+          },
+          {
+            "base_router_margin_median": 0.0703125,
+            "baseline_search_ce": 11.121293067932129,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1560,
+                1603
+              ],
+              "search_start": 1518,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.004871133620326873,
+            "event": 13,
+            "global_step": 1777119,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.046875,
+            "route_flip_fraction_mean": 0.00830078125,
+            "target": "blocks.13.ff.router"
+          }
+        ],
+        "events": 14,
+        "max_pair_signal": 0.0,
+        "max_route_flip_fraction_by_event_mean": 0.00830078125,
+        "max_route_flip_fraction_single_candidate": 0.046875,
+        "mean_candidate_loss_std": 4.328014771967251e-07,
+        "mean_delta_logit_rms": 0.003054603616159771,
+        "mean_pair_signal": 0.0,
+        "mean_route_flip_fraction": 0.0005929129464285714,
+        "median_base_router_margin": 1.677734375,
+        "median_pair_signal": 0.0,
+        "median_route_flip_fraction": 0.0,
+        "nonzero_signal_events": 0,
+        "p90_pair_signal": 0.0,
+        "p90_route_flip_fraction": 0.0,
+        "population": 16,
+        "process_elapsed_s": 124.91527096700156,
+        "process_returncode": -9,
+        "sigma": 0.0003,
+        "signal_ge_1e6_events": 0,
+        "signal_ge_1e7_events": 0,
+        "timed_out": false
+      },
+      "sigma": 0.0003
+    },
+    "sigma_0p001": {
+      "metrics": {
+        "details": [
+          {
+            "base_router_margin_median": 1.037109375,
+            "baseline_search_ce": 11.121328353881836,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1477,
+                1520
+              ],
+              "search_start": 1435,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.0034234159465995617,
+            "event": 0,
+            "global_step": 1777106,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.0.ff.router"
+          },
+          {
+            "base_router_margin_median": 6.216796875,
+            "baseline_search_ce": 11.12124252319336,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                392,
+                435
+              ],
+              "search_start": 350,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.02617745182942599,
+            "event": 1,
+            "global_step": 1777107,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.1.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.203125,
+            "baseline_search_ce": 11.121344566345215,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1599,
+                1642
+              ],
+              "search_start": 1557,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.004583347246807534,
+            "event": 2,
+            "global_step": 1777108,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.2.ff.router"
+          },
+          {
+            "base_router_margin_median": 6.640625,
+            "baseline_search_ce": 11.121312141418457,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                92,
+                135
+              ],
+              "search_start": 50,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.007043218472972512,
+            "event": 3,
+            "global_step": 1777109,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.3.ff.router"
+          },
+          {
+            "base_router_margin_median": 3.7109375,
+            "baseline_search_ce": 11.121419906616211,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1699,
+                1742
+              ],
+              "search_start": 1657,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.01266544742975384,
+            "event": 4,
+            "global_step": 1777110,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.4.ff.router"
+          },
+          {
+            "base_router_margin_median": 4.3671875,
+            "baseline_search_ce": 11.120889663696289,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                79,
+                122
+              ],
+              "search_start": 37,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.00977436764515005,
+            "event": 5,
+            "global_step": 1777111,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.5.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.609375,
+            "baseline_search_ce": 11.121292114257812,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1274,
+                1317
+              ],
+              "search_start": 1232,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.0073305936239194125,
+            "event": 6,
+            "global_step": 1777112,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.6.ff.router"
+          },
+          {
+            "base_router_margin_median": 10.59375,
+            "baseline_search_ce": 11.121313095092773,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1517,
+                1560
+              ],
+              "search_start": 1475,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.011056272312998772,
+            "event": 7,
+            "global_step": 1777113,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.7.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.2421875,
+            "baseline_search_ce": 11.121330261230469,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1765,
+                1808
+              ],
+              "search_start": 1723,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.004960612546710763,
+            "event": 8,
+            "global_step": 1777114,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.8.ff.router"
+          },
+          {
+            "base_router_margin_median": 7.3046875,
+            "baseline_search_ce": 11.121477127075195,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                28,
+                71
+              ],
+              "search_start": 1907,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.01340266628540121,
+            "event": 9,
+            "global_step": 1777115,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.9.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.70703125,
+            "baseline_search_ce": 11.121325492858887,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1805,
+                1848
+              ],
+              "search_start": 1763,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.004066392401000485,
+            "event": 10,
+            "global_step": 1777116,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.10.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.0703125,
+            "baseline_search_ce": 11.121329307556152,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1174,
+                1217
+              ],
+              "search_start": 1132,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.009914657624904066,
+            "event": 11,
+            "global_step": 1777117,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.11.ff.router"
+          },
+          {
+            "base_router_margin_median": 0.884765625,
+            "baseline_search_ce": 11.121371269226074,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1207,
+                1250
+              ],
+              "search_start": 1165,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.003506030963762896,
+            "event": 12,
+            "global_step": 1777118,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.12.ff.router"
+          },
+          {
+            "base_router_margin_median": 0.05859375,
+            "baseline_search_ce": 11.121334075927734,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1560,
+                1603
+              ],
+              "search_start": 1518,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.016237724805250764,
+            "event": 13,
+            "global_step": 1777119,
+            "pair_signal_rms": 4.511090992309619e-06,
+            "route_flip_fraction_max": 0.2265625,
+            "route_flip_fraction_mean": 0.04296875,
+            "target": "blocks.13.ff.router"
+          }
+        ],
+        "events": 14,
+        "max_pair_signal": 4.511090992309619e-06,
+        "max_route_flip_fraction_by_event_mean": 0.04296875,
+        "max_route_flip_fraction_single_candidate": 0.2265625,
+        "mean_candidate_loss_std": 5.413775170381996e-07,
+        "mean_delta_logit_rms": 0.009581585652475562,
+        "mean_pair_signal": 3.2222078516497277e-07,
+        "mean_route_flip_fraction": 0.0030691964285714285,
+        "median_base_router_margin": 1.658203125,
+        "median_pair_signal": 0.0,
+        "median_route_flip_fraction": 0.0,
+        "nonzero_signal_events": 1,
+        "p90_pair_signal": 0.0,
+        "p90_route_flip_fraction": 0.0,
+        "population": 16,
+        "process_elapsed_s": 112.9250186549616,
+        "process_returncode": -9,
+        "sigma": 0.001,
+        "signal_ge_1e6_events": 1,
+        "signal_ge_1e7_events": 1,
+        "timed_out": false
+      },
+      "sigma": 0.001
+    },
+    "sigma_0p003": {
+      "metrics": {
+        "details": [
+          {
+            "base_router_margin_median": 1.037109375,
+            "baseline_search_ce": 11.121328353881836,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1477,
+                1520
+              ],
+              "search_start": 1435,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.010270247221342288,
+            "event": 0,
+            "global_step": 1777106,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0078125,
+            "route_flip_fraction_mean": 0.00048828125,
+            "target": "blocks.0.ff.router"
+          },
+          {
+            "base_router_margin_median": 5.8857421875,
+            "baseline_search_ce": 11.121278762817383,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                392,
+                435
+              ],
+              "search_start": 350,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.07946973410435021,
+            "event": 1,
+            "global_step": 1777107,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.1.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.236328125,
+            "baseline_search_ce": 11.121057510375977,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1599,
+                1642
+              ],
+              "search_start": 1557,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.015660627279430628,
+            "event": 2,
+            "global_step": 1777108,
+            "pair_signal_rms": 3.3717478231665154e-07,
+            "route_flip_fraction_max": 0.0078125,
+            "route_flip_fraction_mean": 0.00048828125,
+            "target": "blocks.2.ff.router"
+          },
+          {
+            "base_router_margin_median": 6.609375,
+            "baseline_search_ce": 11.12118148803711,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                92,
+                135
+              ],
+              "search_start": 50,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.02192045166157186,
+            "event": 3,
+            "global_step": 1777109,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.3.ff.router"
+          },
+          {
+            "base_router_margin_median": 3.7109375,
+            "baseline_search_ce": 11.121408462524414,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1699,
+                1742
+              ],
+              "search_start": 1657,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.03802499920129776,
+            "event": 4,
+            "global_step": 1777110,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.4.ff.router"
+          },
+          {
+            "base_router_margin_median": 4.359375,
+            "baseline_search_ce": 11.121350288391113,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                79,
+                122
+              ],
+              "search_start": 37,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.029834023385774344,
+            "event": 5,
+            "global_step": 1777111,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.5.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.58203125,
+            "baseline_search_ce": 11.121346473693848,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1274,
+                1317
+              ],
+              "search_start": 1232,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.022359357273671776,
+            "event": 6,
+            "global_step": 1777112,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.6.ff.router"
+          },
+          {
+            "base_router_margin_median": 10.53125,
+            "baseline_search_ce": 11.121376991271973,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1517,
+                1560
+              ],
+              "search_start": 1475,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.033098773084930144,
+            "event": 7,
+            "global_step": 1777113,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.7.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.28125,
+            "baseline_search_ce": 11.121053695678711,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1765,
+                1808
+              ],
+              "search_start": 1723,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.015560880798147991,
+            "event": 8,
+            "global_step": 1777114,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.8.ff.router"
+          },
+          {
+            "base_router_margin_median": 7.296875,
+            "baseline_search_ce": 11.121106147766113,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                28,
+                71
+              ],
+              "search_start": 1907,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.04165962483966723,
+            "event": 9,
+            "global_step": 1777115,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.9.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.73046875,
+            "baseline_search_ce": 11.121220588684082,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1805,
+                1848
+              ],
+              "search_start": 1763,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.011932512163184583,
+            "event": 10,
+            "global_step": 1777116,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.10.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.06640625,
+            "baseline_search_ce": 11.121356010437012,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1174,
+                1217
+              ],
+              "search_start": 1132,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.029646233073435724,
+            "event": 11,
+            "global_step": 1777117,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.11.ff.router"
+          },
+          {
+            "base_router_margin_median": 0.81640625,
+            "baseline_search_ce": 11.121381759643555,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1207,
+                1250
+              ],
+              "search_start": 1165,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.01051682123215869,
+            "event": 12,
+            "global_step": 1777118,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.12.ff.router"
+          },
+          {
+            "base_router_margin_median": 0.0625,
+            "baseline_search_ce": 18.121477127075195,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1560,
+                1603
+              ],
+              "search_start": 1518,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.04775370081188157,
+            "event": 13,
+            "global_step": 1777119,
+            "pair_signal_rms": 0.7071024179458618,
+            "route_flip_fraction_max": 0.7109375,
+            "route_flip_fraction_mean": 0.16064453125,
+            "target": "blocks.13.ff.router"
+          }
+        ],
+        "events": 14,
+        "max_pair_signal": 0.7071024179458618,
+        "max_route_flip_fraction_by_event_mean": 0.16064453125,
+        "max_route_flip_fraction_single_candidate": 0.7109375,
+        "mean_candidate_loss_std": 0.030929763367916103,
+        "mean_delta_logit_rms": 0.029121999009346058,
+        "mean_pair_signal": 0.05050733965147458,
+        "mean_route_flip_fraction": 0.011544363839285714,
+        "median_base_router_margin": 1.65625,
+        "median_pair_signal": 0.0,
+        "median_route_flip_fraction": 0.0,
+        "nonzero_signal_events": 2,
+        "p90_pair_signal": 2.3602234762165644e-07,
+        "p90_route_flip_fraction": 0.00048828125,
+        "population": 16,
+        "process_elapsed_s": 113.00809412903618,
+        "process_returncode": -9,
+        "sigma": 0.003,
+        "signal_ge_1e6_events": 1,
+        "signal_ge_1e7_events": 2,
+        "timed_out": false
+      },
+      "sigma": 0.003
+    },
+    "sigma_0p01": {
+      "metrics": {
+        "details": [
+          {
+            "base_router_margin_median": 1.037109375,
+            "baseline_search_ce": 11.121328353881836,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1477,
+                1520
+              ],
+              "search_start": 1435,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.0342341561045032,
+            "event": 0,
+            "global_step": 1777106,
+            "pair_signal_rms": 1.1147184522997122e-05,
+            "route_flip_fraction_max": 0.0546875,
+            "route_flip_fraction_mean": 0.0166015625,
+            "target": "blocks.0.ff.router"
+          },
+          {
+            "base_router_margin_median": 5.8759765625,
+            "baseline_search_ce": 11.121278762817383,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                392,
+                435
+              ],
+              "search_start": 350,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.2649009795859456,
+            "event": 1,
+            "global_step": 1777107,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.1.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.2431640625,
+            "baseline_search_ce": 11.12130069732666,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1599,
+                1642
+              ],
+              "search_start": 1557,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.04165063449181616,
+            "event": 2,
+            "global_step": 1777108,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.2.ff.router"
+          },
+          {
+            "base_router_margin_median": 6.53125,
+            "baseline_search_ce": 11.121088027954102,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                92,
+                135
+              ],
+              "search_start": 50,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.07495764899067581,
+            "event": 3,
+            "global_step": 1777109,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.3.ff.router"
+          },
+          {
+            "base_router_margin_median": 3.6953125,
+            "baseline_search_ce": 11.121381759643555,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1699,
+                1742
+              ],
+              "search_start": 1657,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.12651235703378916,
+            "event": 4,
+            "global_step": 1777110,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.4.ff.router"
+          },
+          {
+            "base_router_margin_median": 4.3515625,
+            "baseline_search_ce": 11.121379852294922,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                79,
+                122
+              ],
+              "search_start": 37,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.09623730287421495,
+            "event": 5,
+            "global_step": 1777111,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.5.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.66015625,
+            "baseline_search_ce": 11.121221542358398,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1274,
+                1317
+              ],
+              "search_start": 1232,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.07329663913697004,
+            "event": 6,
+            "global_step": 1777112,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.6.ff.router"
+          },
+          {
+            "base_router_margin_median": 10.40625,
+            "baseline_search_ce": 40.12128829956055,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1517,
+                1560
+              ],
+              "search_start": 1475,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.11084237421164289,
+            "event": 7,
+            "global_step": 1777113,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.7.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.3125,
+            "baseline_search_ce": 11.120810508728027,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1765,
+                1808
+              ],
+              "search_start": 1723,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.051771138212643564,
+            "event": 8,
+            "global_step": 1777114,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.8.ff.router"
+          },
+          {
+            "base_router_margin_median": 7.3203125,
+            "baseline_search_ce": 11.12137508392334,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                28,
+                71
+              ],
+              "search_start": 1907,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.13394855801016092,
+            "event": 9,
+            "global_step": 1777115,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.9.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.72265625,
+            "baseline_search_ce": 11.121326446533203,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1805,
+                1848
+              ],
+              "search_start": 1763,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.04017909790854901,
+            "event": 10,
+            "global_step": 1777116,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.10.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.1328125,
+            "baseline_search_ce": 11.121251106262207,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1174,
+                1217
+              ],
+              "search_start": 1132,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.1010571951046586,
+            "event": 11,
+            "global_step": 1777117,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.11.ff.router"
+          },
+          {
+            "base_router_margin_median": 0.939453125,
+            "baseline_search_ce": 11.121065139770508,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1207,
+                1250
+              ],
+              "search_start": 1165,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.035155297082383186,
+            "event": 12,
+            "global_step": 1777118,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.12.ff.router"
+          },
+          {
+            "base_router_margin_median": 0.078125,
+            "baseline_search_ce": 11.121366500854492,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1560,
+                1603
+              ],
+              "search_start": 1518,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.16188219864852726,
+            "event": 13,
+            "global_step": 1777119,
+            "pair_signal_rms": 3.520208110785461e-06,
+            "route_flip_fraction_max": 0.8984375,
+            "route_flip_fraction_mean": 0.27392578125,
+            "target": "blocks.13.ff.router"
+          }
+        ],
+        "events": 14,
+        "max_pair_signal": 1.1147184522997122e-05,
+        "max_route_flip_fraction_by_event_mean": 0.27392578125,
+        "max_route_flip_fraction_single_candidate": 0.8984375,
+        "mean_candidate_loss_std": 8.861289545945641e-07,
+        "mean_delta_logit_rms": 0.09618754124260574,
+        "mean_pair_signal": 1.0476709024130417e-06,
+        "mean_route_flip_fraction": 0.020751953125,
+        "median_base_router_margin": 1.69140625,
+        "median_pair_signal": 0.0,
+        "median_route_flip_fraction": 0.0,
+        "nonzero_signal_events": 2,
+        "p90_pair_signal": 2.4641456775498263e-06,
+        "p90_route_flip_fraction": 0.011621093750000018,
+        "population": 16,
+        "process_elapsed_s": 110.90127586701419,
+        "process_returncode": -9,
+        "sigma": 0.01,
+        "signal_ge_1e6_events": 2,
+        "signal_ge_1e7_events": 2,
+        "timed_out": false
+      },
+      "sigma": 0.01
+    },
+    "sigma_0p03": {
+      "metrics": {
+        "details": [
+          {
+            "base_router_margin_median": 1.037109375,
+            "baseline_search_ce": 11.12132740020752,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1477,
+                1520
+              ],
+              "search_start": 1435,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.10270247072912753,
+            "event": 0,
+            "global_step": 1777106,
+            "pair_signal_rms": 1.970670564332977e-05,
+            "route_flip_fraction_max": 0.1875,
+            "route_flip_fraction_mean": 0.05859375,
+            "target": "blocks.0.ff.router"
+          },
+          {
+            "base_router_margin_median": 6.6875,
+            "baseline_search_ce": 11.1212158203125,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                392,
+                435
+              ],
+              "search_start": 350,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.980697400867939,
+            "event": 1,
+            "global_step": 1777107,
+            "pair_signal_rms": 0.00047416499000974,
+            "route_flip_fraction_max": 0.2109375,
+            "route_flip_fraction_mean": 0.04345703125,
+            "target": "blocks.1.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.205078125,
+            "baseline_search_ce": 11.121427536010742,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1599,
+                1642
+              ],
+              "search_start": 1557,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.12699048151262105,
+            "event": 2,
+            "global_step": 1777108,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.2.ff.router"
+          },
+          {
+            "base_router_margin_median": 6.65625,
+            "baseline_search_ce": 11.12143325805664,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                92,
+                135
+              ],
+              "search_start": 50,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.20629942417144775,
+            "event": 3,
+            "global_step": 1777109,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.3.ff.router"
+          },
+          {
+            "base_router_margin_median": 3.7265625,
+            "baseline_search_ce": 11.121281623840332,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1699,
+                1742
+              ],
+              "search_start": 1657,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.37386925518512726,
+            "event": 4,
+            "global_step": 1777110,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.4.ff.router"
+          },
+          {
+            "base_router_margin_median": 4.3671875,
+            "baseline_search_ce": 11.121377944946289,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                79,
+                122
+              ],
+              "search_start": 37,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.29254757100716233,
+            "event": 5,
+            "global_step": 1777111,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.5.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.578125,
+            "baseline_search_ce": 11.12123966217041,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1274,
+                1317
+              ],
+              "search_start": 1232,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.22279503964819014,
+            "event": 6,
+            "global_step": 1777112,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.6.ff.router"
+          },
+          {
+            "base_router_margin_median": 10.1875,
+            "baseline_search_ce": 11.121225357055664,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1517,
+                1560
+              ],
+              "search_start": 1475,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.3338542584097013,
+            "event": 7,
+            "global_step": 1777113,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.7.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.33203125,
+            "baseline_search_ce": 13.120668411254883,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1765,
+                1808
+              ],
+              "search_start": 1723,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.1623451877385378,
+            "event": 8,
+            "global_step": 1777114,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.8.ff.router"
+          },
+          {
+            "base_router_margin_median": 7.3203125,
+            "baseline_search_ce": 11.121370315551758,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                28,
+                71
+              ],
+              "search_start": 1907,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.40584960533306,
+            "event": 9,
+            "global_step": 1777115,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.9.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.734375,
+            "baseline_search_ce": 11.121227264404297,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1805,
+                1848
+              ],
+              "search_start": 1763,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.11973227630369365,
+            "event": 10,
+            "global_step": 1777116,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.10.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.06640625,
+            "baseline_search_ce": 11.121335983276367,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1174,
+                1217
+              ],
+              "search_start": 1132,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.30158565007150173,
+            "event": 11,
+            "global_step": 1777117,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.11.ff.router"
+          },
+          {
+            "base_router_margin_median": 0.89453125,
+            "baseline_search_ce": 21.121278762817383,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1207,
+                1250
+              ],
+              "search_start": 1165,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.10371519916225225,
+            "event": 12,
+            "global_step": 1777118,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.12.ff.router"
+          },
+          {
+            "base_router_margin_median": 0.0625,
+            "baseline_search_ce": 11.121018409729004,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1560,
+                1603
+              ],
+              "search_start": 1518,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.4889592349063605,
+            "event": 13,
+            "global_step": 1777119,
+            "pair_signal_rms": 8.429369700024836e-06,
+            "route_flip_fraction_max": 0.71875,
+            "route_flip_fraction_mean": 0.40478515625,
+            "target": "blocks.13.ff.router"
+          }
+        ],
+        "events": 14,
+        "max_pair_signal": 0.00047416499000974,
+        "max_route_flip_fraction_by_event_mean": 0.40478515625,
+        "max_route_flip_fraction_single_candidate": 0.71875,
+        "mean_candidate_loss_std": 1.9712783601529997e-05,
+        "mean_delta_logit_rms": 0.3015673610747659,
+        "mean_pair_signal": 3.587864752522104e-05,
+        "mean_route_flip_fraction": 0.03620256696428571,
+        "median_base_router_margin": 1.65625,
+        "median_pair_signal": 0.0,
+        "median_route_flip_fraction": 0.0,
+        "nonzero_signal_events": 3,
+        "p90_pair_signal": 1.63235048603383e-05,
+        "p90_route_flip_fraction": 0.054052734375000015,
+        "population": 16,
+        "process_elapsed_s": 113.57608376495773,
+        "process_returncode": -9,
+        "sigma": 0.03,
+        "signal_ge_1e6_events": 3,
+        "signal_ge_1e7_events": 3,
+        "timed_out": false
+      },
+      "sigma": 0.03
+    },
+    "sigma_0p1": {
+      "metrics": {
+        "details": [
+          {
+            "base_router_margin_median": 1.037109375,
+            "baseline_search_ce": 11.121328353881836,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1477,
+                1520
+              ],
+              "search_start": 1435,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.3423415678553283,
+            "event": 0,
+            "global_step": 1777106,
+            "pair_signal_rms": 1.9643144696601667e-05,
+            "route_flip_fraction_max": 0.3828125,
+            "route_flip_fraction_mean": 0.14306640625,
+            "target": "blocks.0.ff.router"
+          },
+          {
+            "base_router_margin_median": 5.8857421875,
+            "baseline_search_ce": 11.121271133422852,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                392,
+                435
+              ],
+              "search_start": 350,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 2.648859202861786,
+            "event": 1,
+            "global_step": 1777107,
+            "pair_signal_rms": 0.00820647832006216,
+            "route_flip_fraction_max": 0.5390625,
+            "route_flip_fraction_mean": 0.1103515625,
+            "target": "blocks.1.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.2275390625,
+            "baseline_search_ce": 11.121370315551758,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1599,
+                1642
+              ],
+              "search_start": 1557,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.42762497905641794,
+            "event": 2,
+            "global_step": 1777108,
+            "pair_signal_rms": 5.820539172418648e-06,
+            "route_flip_fraction_max": 1.0,
+            "route_flip_fraction_mean": 0.080078125,
+            "target": "blocks.2.ff.router"
+          },
+          {
+            "base_router_margin_median": 6.546875,
+            "baseline_search_ce": 11.121299743652344,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                92,
+                135
+              ],
+              "search_start": 50,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.7113644741475582,
+            "event": 3,
+            "global_step": 1777109,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.3.ff.router"
+          },
+          {
+            "base_router_margin_median": 3.6875,
+            "baseline_search_ce": 11.12137222290039,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1699,
+                1742
+              ],
+              "search_start": 1657,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 1.2505273595452309,
+            "event": 4,
+            "global_step": 1777110,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.4.ff.router"
+          },
+          {
+            "base_router_margin_median": 4.375,
+            "baseline_search_ce": 11.121362686157227,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                79,
+                122
+              ],
+              "search_start": 37,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.9801053814589977,
+            "event": 5,
+            "global_step": 1777111,
+            "pair_signal_rms": 6.069146365916822e-06,
+            "route_flip_fraction_max": 0.46875,
+            "route_flip_fraction_mean": 0.029296875,
+            "target": "blocks.5.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.6328125,
+            "baseline_search_ce": 11.121116638183594,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1274,
+                1317
+              ],
+              "search_start": 1232,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.7542458847165108,
+            "event": 6,
+            "global_step": 1777112,
+            "pair_signal_rms": 3.7089225770614576e-06,
+            "route_flip_fraction_max": 0.953125,
+            "route_flip_fraction_mean": 0.0595703125,
+            "target": "blocks.6.ff.router"
+          },
+          {
+            "base_router_margin_median": 10.53125,
+            "baseline_search_ce": 11.12131118774414,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1517,
+                1560
+              ],
+              "search_start": 1475,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 1.108409946784377,
+            "event": 7,
+            "global_step": 1777113,
+            "pair_signal_rms": 2.0230486370564904e-06,
+            "route_flip_fraction_max": 0.5,
+            "route_flip_fraction_mean": 0.03125,
+            "target": "blocks.7.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.25390625,
+            "baseline_search_ce": 11.121374130249023,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1765,
+                1808
+              ],
+              "search_start": 1723,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.49274665815755725,
+            "event": 8,
+            "global_step": 1777114,
+            "pair_signal_rms": 9.5367431640625e-07,
+            "route_flip_fraction_max": 1.0,
+            "route_flip_fraction_mean": 0.125,
+            "target": "blocks.8.ff.router"
+          },
+          {
+            "base_router_margin_median": 7.28125,
+            "baseline_search_ce": 11.12118911743164,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                28,
+                71
+              ],
+              "search_start": 1907,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 1.3813231252133846,
+            "event": 9,
+            "global_step": 1777115,
+            "pair_signal_rms": 0.0,
+            "route_flip_fraction_max": 0.0,
+            "route_flip_fraction_mean": 0.0,
+            "target": "blocks.9.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.703125,
+            "baseline_search_ce": 11.121309280395508,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1805,
+                1848
+              ],
+              "search_start": 1763,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.4036337109282613,
+            "event": 10,
+            "global_step": 1777116,
+            "pair_signal_rms": 2.6973982585332124e-06,
+            "route_flip_fraction_max": 0.921875,
+            "route_flip_fraction_mean": 0.0576171875,
+            "target": "blocks.10.ff.router"
+          },
+          {
+            "base_router_margin_median": 1.05859375,
+            "baseline_search_ce": 11.121357917785645,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1174,
+                1217
+              ],
+              "search_start": 1132,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.9906587861478329,
+            "event": 11,
+            "global_step": 1777117,
+            "pair_signal_rms": 2.6973983040079474e-05,
+            "route_flip_fraction_max": 1.0,
+            "route_flip_fraction_mean": 0.24951171875,
+            "target": "blocks.11.ff.router"
+          },
+          {
+            "base_router_margin_median": 0.8984375,
+            "baseline_search_ce": 11.121213912963867,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1207,
+                1250
+              ],
+              "search_start": 1165,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 0.34461104264482856,
+            "event": 12,
+            "global_step": 1777118,
+            "pair_signal_rms": 7.539457556049456e-07,
+            "route_flip_fraction_max": 1.0,
+            "route_flip_fraction_mean": 0.12353515625,
+            "target": "blocks.12.ff.router"
+          },
+          {
+            "base_router_margin_median": 0.07421875,
+            "baseline_search_ce": 127.12110900878906,
+            "crop": {
+              "batch": 1,
+              "guard_batch": 2,
+              "guard_crops": 2,
+              "guard_starts": [
+                1560,
+                1603
+              ],
+              "search_start": 1518,
+              "tokens": 128
+            },
+            "delta_logit_rms_mean": 1.6298205293715,
+            "event": 13,
+            "global_step": 1777119,
+            "pair_signal_rms": 3.814697265625e-06,
+            "route_flip_fraction_max": 0.96875,
+            "route_flip_fraction_mean": 0.46240234375,
+            "target": "blocks.13.ff.router"
+          }
+        ],
+        "events": 14,
+        "max_pair_signal": 0.00820647832006216,
+        "max_route_flip_fraction_by_event_mean": 0.46240234375,
+        "max_route_flip_fraction_single_candidate": 1.0,
+        "mean_candidate_loss_std": 0.0003452454629382373,
+        "mean_delta_logit_rms": 0.9618766177778265,
+        "mean_pair_signal": 0.0005913526300105332,
+        "mean_route_flip_fraction": 0.10511997767857142,
+        "median_base_router_margin": 1.66796875,
+        "median_pair_signal": 3.203160417797335e-06,
+        "median_route_flip_fraction": 0.06982421875,
+        "nonzero_signal_events": 11,
+        "p90_pair_signal": 2.4774731537036137e-05,
+        "p90_route_flip_fraction": 0.21757812500000012,
+        "population": 16,
+        "process_elapsed_s": 114.17457177798497,
+        "process_returncode": -9,
+        "sigma": 0.1,
+        "signal_ge_1e6_events": 9,
+        "signal_ge_1e7_events": 11,
+        "timed_out": false
+      },
+      "sigma": 0.1
+    }
+  },
+  "checkpoint": {
+    "checkpoint_step": 1777105,
+    "committed_step": 46754,
+    "seen_tok": 87348264960,
+    "step": 1777105,
+    "wrapper_keys": [
+      "agillm43_block_sharded_torch_v1",
+      "codec",
+      "entries",
+      "format_version",
+      "shard_codec",
+      "shard_dir",
+      "skeleton"
+    ]
+  },
+  "completed_at": "2026-08-10T01:51:41Z",
+  "copy_receipt": {
+    "checkpoint_bytes": 7289299303,
+    "checkpoint_files": 37,
+    "checkpoint_matches": true,
+    "checkpoint_sha256": "72ee3cf3ae4e3dedb22f16d8c2d21c80c66e0bdcd2001f606f030886cc98e2af",
+    "copied_at": "2026-08-10T01:40:02Z",
+    "elapsed_s": 42.34876952297054,
+    "probe_matches": true,
+    "probe_sha256": "d48a32b5f3a2a17c98b8547f645e8062276c03c5e9ecd6bce299f7290a9c1d73"
+  },
+  "events_per_sigma": 14,
+  "hardware": {
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "torch": "2.2.1",
+    "total_memory": 85093777408
+  },
+  "matched_checks": {
+    "events_checked": 14,
+    "invariant_mismatches": [],
+    "labels": [
+      "sigma_0p0003",
+      "sigma_0p001",
+      "sigma_0p003",
+      "sigma_0p01",
+      "sigma_0p03",
+      "sigma_0p1"
+    ],
+    "max_baseline_search_ce_range": 116.00009059906006,
+    "mean_baseline_search_ce_range": 13.92873934337071
+  },
+  "population": 16,
+  "run_id": "hf-a100-eggroll-sigma-sweep-step1777105-20260810-r2",
+  "schema": "agillm43.eggroll.sigma-calibration.v1",
+  "sigmas": [
+    0.0003,
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1
+  ],
+  "started_at": "2026-08-10T01:39:19Z"
+}

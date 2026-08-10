@@ -1,0 +1,167 @@
+{
+  "date_utc": "2026-08-10",
+  "decision": {
+    "classification": "mechanistic_signal_not_pretraining_speedup",
+    "long_running_fork_started": false,
+    "next_allowed_mode": "infrequent dry-run only",
+    "production_enabled": false
+  },
+  "fixed_token_probe": {
+    "active_better_than_both": 3,
+    "active_mean_delta_vs_baseline_mean": -0.0007857142857144847,
+    "active_median_delta_vs_baseline_mean": 0.0,
+    "active_over_baseline_runtime_ratio": 1.4168067065511134,
+    "active_overhead_fraction": 0.4168067065511134,
+    "active_train_window_s": 11.56933739798842,
+    "active_worse_than_both": 5,
+    "baseline_mean_train_window_s": 8.165783902979456,
+    "baseline_repeat_max_abs_loss_noise": 0.0039999999999995595,
+    "baseline_repeat_mean_abs_loss_noise": 0.00028571428571425424,
+    "commits_per_branch": 14,
+    "events": 14,
+    "nonzero_signal_events": 11,
+    "old_acceptance_warning": "v24 fixed-token probe used the old non-regression-only acceptance rule; v25 rejects numerically unchanged updates",
+    "old_statuses": {
+      "accepted": 10,
+      "no_signal": 3,
+      "rejected": 1
+    },
+    "tokens_per_branch": 114688
+  },
+  "frozen_checkpoint": {
+    "dblock_commit": 46754,
+    "global_step": 1777105,
+    "main_sha256": "72ee3cf3ae4e3dedb22f16d8c2d21c80c66e0bdcd2001f606f030886cc98e2af",
+    "package_bytes": 7289299303,
+    "package_files": 37,
+    "tokens_seen": 87348264960
+  },
+  "initial_population_test": {
+    "commits_per_arm": 56,
+    "population_16": {
+      "accepted": 1,
+      "events": 14,
+      "mean_event_elapsed_s": null,
+      "mean_guard_delta": null,
+      "mean_pair_signal": 3.5640937312564347e-07,
+      "mean_search_delta": null,
+      "median_event_elapsed_s": null,
+      "median_guard_delta": null,
+      "median_search_delta": null,
+      "status_counts": {
+        "accepted": 1,
+        "no_signal": 13
+      }
+    },
+    "population_8": {
+      "accepted": 1,
+      "events": 14,
+      "mean_event_elapsed_s": null,
+      "mean_guard_delta": null,
+      "mean_pair_signal": 6.811959402901785e-08,
+      "mean_search_delta": null,
+      "median_event_elapsed_s": null,
+      "median_guard_delta": null,
+      "median_search_delta": null,
+      "status_counts": {
+        "accepted": 1,
+        "no_signal": 13
+      }
+    }
+  },
+  "reproducibility_gate": {
+    "batch_hash_mismatches": 0,
+    "max_abs_anchor_ce_delta": 2.8916000000000004,
+    "max_abs_local_loss_delta": 0.05799999999999983,
+    "passed": false,
+    "schedule_mismatches": 0
+  },
+  "schema": "agillm43.eggroll.unified-v25.validation.v1",
+  "sigma_calibration": {
+    "branches": {
+      "sigma_0p0003": {
+        "events": 14,
+        "max_pair_signal": 0.0,
+        "mean_delta_logit_rms": 0.003054603616159771,
+        "mean_route_flip_fraction": 0.0005929129464285714,
+        "median_pair_signal": 0.0,
+        "nonzero_signal_events": 0,
+        "sigma": 0.0003
+      },
+      "sigma_0p001": {
+        "events": 14,
+        "max_pair_signal": 4.511090992309619e-06,
+        "mean_delta_logit_rms": 0.009581585652475562,
+        "mean_route_flip_fraction": 0.0030691964285714285,
+        "median_pair_signal": 0.0,
+        "nonzero_signal_events": 1,
+        "sigma": 0.001
+      },
+      "sigma_0p003": {
+        "events": 14,
+        "max_pair_signal": 0.7071024179458618,
+        "mean_delta_logit_rms": 0.029121999009346058,
+        "mean_route_flip_fraction": 0.011544363839285714,
+        "median_pair_signal": 0.0,
+        "nonzero_signal_events": 2,
+        "sigma": 0.003
+      },
+      "sigma_0p01": {
+        "events": 14,
+        "max_pair_signal": 1.1147184522997122e-05,
+        "mean_delta_logit_rms": 0.09618754124260574,
+        "mean_route_flip_fraction": 0.020751953125,
+        "median_pair_signal": 0.0,
+        "nonzero_signal_events": 2,
+        "sigma": 0.01
+      },
+      "sigma_0p03": {
+        "events": 14,
+        "max_pair_signal": 0.00047416499000974,
+        "mean_delta_logit_rms": 0.3015673610747659,
+        "mean_route_flip_fraction": 0.03620256696428571,
+        "median_pair_signal": 0.0,
+        "nonzero_signal_events": 3,
+        "sigma": 0.03
+      },
+      "sigma_0p1": {
+        "events": 14,
+        "max_pair_signal": 0.00820647832006216,
+        "mean_delta_logit_rms": 0.9618766177778265,
+        "mean_route_flip_fraction": 0.10511997767857142,
+        "median_pair_signal": 3.203160417797335e-06,
+        "nonzero_signal_events": 11,
+        "sigma": 0.1
+      }
+    },
+    "calibrated_map": {
+      "0": 0.03,
+      "1": 0.03,
+      "13": 0.001
+    },
+    "events_per_sigma": 14,
+    "population": 16
+  },
+  "source_hashes": {
+    "fixed_token_probe_report.md": "ed549753baf50fc3740d81a3e1733ae891ec10e3b4f549cdcbdeb1803ac18c29",
+    "fixed_token_probe_summary.json": "6f2a68cc60011e9579174c654e1823c6b91a3197972fce97b00076063b92bda7",
+    "initial_ab_summary.json": "72876890a2156e12d294979f42ae478ce0710edcbaacde4d6bdccbda7e794cdb",
+    "replay_reproducibility_failure.json": "9c81cb1681eb385b53dbed9aae28a487b95000a0d2660c57714648c6bfe0eea2",
+    "sigma_calibration_summary.json": "f43c462cb823eef5051806ae59e52012d1a8dd51458650d7be30a8fdab67274b"
+  },
+  "v25": {
+    "default_enabled": false,
+    "features": [
+      "strict fixed-token input and SHA-256 receipts",
+      "per-router sigma map",
+      "measurable-improvement acceptance gate",
+      "route-flip and router-margin diagnostics",
+      "rollback and trust-region clipping"
+    ],
+    "filename": "agillm43_singlefile_intelligence_v25_eggroll_unified_experimental.py",
+    "fixed_token_schema": "agillm43.fixed_tokens.v1",
+    "profile": "intelligence-v25-eggroll-unified-experimental",
+    "sha256": "8b9e62eaa9dde68c624ea9f3d4c9311b4a841ec43a89761453754e0673e25674",
+    "sidecar_schema": "agillm43.eggroll.sidecar.v3"
+  }
+}

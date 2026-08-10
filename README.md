@@ -11,6 +11,30 @@ license: other
 
 # AGILLM 4.3 EGGROLL Experimental
 
+<!-- V25-UNIFIED-START -->
+## v25 unified EGGROLL experimental runtime — 10 August 2026
+
+**Measured verdict:** EGGROLL produced genuine MoE-router fitness signal, but **did not demonstrate faster AGILLM-4.3 pretraining**. In the fixed-token probe the active branch took **41.7% longer** than the mean baseline training window. Production v22 remains unchanged, and no long-running EGGROLL checkpoint fork was started.
+
+v25 merges the two former v24 branches into one coherent file:
+
+- strict fixed-token input plus SHA-256 receipts;
+- calibrated per-router perturbation scales;
+- measurable-improvement acceptance, so numerical no-change is rejected;
+- route-flip, router-margin and perturbation diagnostics;
+- exact rollback, clipping and default-off behaviour.
+
+Files:
+
+- [`agillm43_singlefile_intelligence_v25_eggroll_unified_experimental.py`](agillm43_singlefile_intelligence_v25_eggroll_unified_experimental.py)
+- [`launch_v25_calibrated_dry_run.sh`](launch_v25_calibrated_dry_run.sh)
+- [`RESULTS_20260810.md`](RESULTS_20260810.md)
+- [`EXPERIMENT_RESULTS_20260810.json`](EXPERIMENT_RESULTS_20260810.json)
+- complete immutable bundle: [`validation/2026-08-10-v25/`](validation/2026-08-10-v25/)
+
+SHA-256: `8b9e62eaa9dde68c624ea9f3d4c9311b4a841ec43a89761453754e0673e25674`
+<!-- V25-UNIFIED-END -->
+
 Default-off EGGROLL experiments for AGILLM 4.3's top-1 Mixture-of-Experts routers, inspired by [Evolution Strategies at the Hyperscale](https://eshyperscale.github.io/imgs/paper.pdf). Normal AdamW, AR, SAT, NAT and DiffusionBlock training remain intact.
 
 ## Experiment verdict, 10 August 2026

@@ -1,0 +1,12 @@
+{
+  "baseline_train_window_s": 79.45083896198776,
+  "batch_hash_mismatches": [],
+  "capture_train_window_s": 86.08100090397056,
+  "matched_anchors": 84,
+  "max_abs_anchor_ce_delta": 2.8916000000000004,
+  "max_abs_loss_delta": 0.05799999999999983,
+  "max_abs_raw_sum_delta": 0.05799999999999983,
+  "mean_loss_delta": -0.0031666666666666033,
+  "passed": false,
+  "schedule_mismatches": []
+}
