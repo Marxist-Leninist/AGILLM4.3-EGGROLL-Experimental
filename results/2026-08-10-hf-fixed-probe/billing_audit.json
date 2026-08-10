@@ -1,0 +1,94 @@
+{
+  "jobs": [
+    {
+      "conservative_minute_rounded_a100_cost_usd": 0.08333333333333333,
+      "flavor": "a100-large",
+      "id": "6a7922143e1f34a7e32c1527",
+      "name": "agillm43-eggroll-a100-ab",
+      "raw_a100_cost_usd": 0.05208333333333333,
+      "running_seconds": 75,
+      "status": "ERROR"
+    },
+    {
+      "conservative_minute_rounded_a100_cost_usd": 0.625,
+      "flavor": "a100-large",
+      "id": "6a7924a83e1f34a7e32c1571",
+      "name": "agillm43-eggroll-a100-ab-r2",
+      "raw_a100_cost_usd": 0.5861111111111111,
+      "running_seconds": 844,
+      "status": "COMPLETED"
+    },
+    {
+      "conservative_minute_rounded_a100_cost_usd": 0.2916666666666667,
+      "flavor": "a100-large",
+      "id": "6a7935d3da2af92a634f0c42",
+      "name": "agillm43-eggroll-controlled-ab",
+      "raw_a100_cost_usd": 0.27569444444444446,
+      "running_seconds": 397,
+      "status": "ERROR"
+    },
+    {
+      "conservative_minute_rounded_a100_cost_usd": 0.0,
+      "flavor": "a100-large",
+      "id": "6a7937e4da2af92a634f0c56",
+      "name": "agillm43-eggroll-controlled-ab-r2",
+      "raw_a100_cost_usd": 0.0,
+      "running_seconds": 0,
+      "status": "CANCELED"
+    },
+    {
+      "conservative_minute_rounded_a100_cost_usd": 0.25,
+      "flavor": "a100-large",
+      "id": "6a7937ae3e1f34a7e32c16e7",
+      "name": "agillm43-eggroll-fixed-probe",
+      "raw_a100_cost_usd": 0.21388888888888888,
+      "running_seconds": 308,
+      "status": "COMPLETED"
+    },
+    {
+      "conservative_minute_rounded_a100_cost_usd": null,
+      "flavor": "cpu-basic",
+      "id": "6a791fa9da2af92a634f0b78",
+      "name": "agillm43-eggroll-mount-canary",
+      "raw_a100_cost_usd": null,
+      "running_seconds": 3,
+      "status": "COMPLETED"
+    },
+    {
+      "conservative_minute_rounded_a100_cost_usd": 0.3333333333333333,
+      "flavor": "a100-large",
+      "id": "6a79316fda2af92a634f0c1a",
+      "name": "agillm43-eggroll-replay-ab",
+      "raw_a100_cost_usd": 0.3090277777777778,
+      "running_seconds": 445,
+      "status": "ERROR"
+    },
+    {
+      "conservative_minute_rounded_a100_cost_usd": 0.0,
+      "flavor": "a100-large",
+      "id": "6a792a20da2af92a634f0bd4",
+      "name": "agillm43-eggroll-sigma-sweep",
+      "raw_a100_cost_usd": 0.0,
+      "running_seconds": 0,
+      "status": "CANCELED"
+    },
+    {
+      "conservative_minute_rounded_a100_cost_usd": 0.5416666666666666,
+      "flavor": "a100-large",
+      "id": "6a792ba73e1f34a7e32c15f1",
+      "name": "agillm43-eggroll-sigma-sweep-r2",
+      "raw_a100_cost_usd": 0.5340277777777778,
+      "running_seconds": 769,
+      "status": "COMPLETED"
+    }
+  ],
+  "pricing_basis": "Hugging Face Jobs a100-large listed at USD 2.50/hour; billed by minute while Starting/Running. Estimate, not invoice.",
+  "schema": "agillm43.eggroll.hf_jobs_billing_audit.v1",
+  "summary": {
+    "a100_job_count": 8,
+    "a100_running_seconds": 2838,
+    "any_active_project_jobs": false,
+    "conservative_per_job_minute_rounded_cost_usd": 2.125,
+    "raw_runtime_cost_usd": 1.9708333333333332
+  }
+}

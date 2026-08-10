@@ -1,0 +1,32 @@
+{
+  "active_better_negative": 3,
+  "active_over_baseline_runtime_ratio": 1.4168067065511134,
+  "active_throughput_relative_to_baseline": 0.7058125821794474,
+  "active_worse_positive": 5,
+  "baseline_repeat_mean_absolute_loss_noise": 0.00028571428571425424,
+  "degrees_of_freedom": 13,
+  "event_audit": {
+    "accepted": 10,
+    "events": 14,
+    "max_absolute_guard_delta": 0.0,
+    "max_absolute_search_delta": 2.86102294921875e-06,
+    "max_realized_update_rms_ratio": 0.001000000120988371,
+    "mean_realized_update_rms_ratio": 0.0007496461801090595,
+    "no_signal": 3,
+    "nonzero_guard_delta_events": 0,
+    "nonzero_search_delta_events": 1,
+    "rejected": 1
+  },
+  "exact_two_sided_sign_test_p": 0.7265625,
+  "mean_active_minus_baseline_mean": -0.0007857142857144847,
+  "n_steps": 14,
+  "sample_sd": 0.019884971408379727,
+  "schema": "agillm43.eggroll.fixed_probe.statistical_audit.v1",
+  "standard_error": 0.005314482153996616,
+  "t_95_percent_interval": [
+    -0.012266954954080141,
+    0.010695526382651172
+  ],
+  "t_statistic": -0.1478439973918454,
+  "ties": 6
+}

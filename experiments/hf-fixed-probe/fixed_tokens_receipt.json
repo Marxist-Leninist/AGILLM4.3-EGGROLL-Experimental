@@ -1,0 +1,21 @@
+{
+  "eos_token_id": 1,
+  "schema": "agillm43.fixed_tokens.corpus_receipt.v1",
+  "source_sha256": "6b832c6c7ce00883ca9f226956e9ffbca2ddd04e6050c0398b68a1c6e25c946b",
+  "tokenizer_files_sha256": "9e9e48f14389e6db71d631d35b6d898224693d8f3357a3695fccd9be2410f5b9",
+  "tokenizer_length": 129280,
+  "train_documents": 800,
+  "train_file": "fixed_train_tokens_800.json",
+  "train_file_sha256": "381f82fe92dacaf0621d881bdd951e7f5c76d32d403dbe41382cd2d45cd4bbb3",
+  "train_max_doc_tokens": 1941,
+  "train_median_doc_tokens": 629,
+  "train_min_doc_tokens": 82,
+  "train_token_int64le_sha256": "bbde62ac4424d40585ae8df66c9369d3606e3dc134b4c75e56ca0493f1b97b42",
+  "train_tokens": 612637,
+  "val_file": "fixed_val_tokens_200_head8196.json",
+  "val_file_sha256": "4c570e4d3f8dd8c42f41cfbbcc2298965d4fc7cf89b73eb228a0c902e7170fe9",
+  "val_full_tokens_before_cap": 150942,
+  "val_source_documents": 200,
+  "val_token_int64le_sha256": "cec7523373e7116b976c7d439d4037c9e31f45c0baf4955857081687f324cfc9",
+  "val_tokens": 8196
+}

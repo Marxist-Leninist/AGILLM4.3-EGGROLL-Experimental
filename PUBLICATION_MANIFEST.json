@@ -1,0 +1,61 @@
+{
+  "created_utc": "2026-08-10T03:45:00Z",
+  "files": [
+    {
+      "bytes": 5120,
+      "path": "HF_EXPERIMENT_RESULTS_20260810.md",
+      "sha256": "64386c9a255d3fb224a895ada3c7582773356a3618b553d0fe260c168a311530"
+    },
+    {
+      "bytes": 3139,
+      "path": "README.md",
+      "sha256": "ccc11783c2c084332f2a02e95f53096bbf5d2865e455d891a03dc9aab5bc28f1"
+    },
+    {
+      "bytes": 1223614,
+      "path": "agillm43_singlefile_intelligence_v24_eggroll_fixed_tokens.py",
+      "sha256": "e3c89682ed04e8d5419cf30e814577b50def3346d3546a4eb27f37acd78f19cf"
+    },
+    {
+      "bytes": 695,
+      "path": "experiments/hf-fixed-probe/entry.sh",
+      "sha256": "48bd4c194f2687aa91ddfd4c643bc259aea8225cbe548deed509fac8b977a6fc"
+    },
+    {
+      "bytes": 16843,
+      "path": "experiments/hf-fixed-probe/fixed_active_probe.py",
+      "sha256": "4dc3c66beeb553fcabf5760e645022a4e750058a7727510527d57122856e0543"
+    },
+    {
+      "bytes": 1010,
+      "path": "experiments/hf-fixed-probe/fixed_tokens_receipt.json",
+      "sha256": "ae4a80afbf558060944890ea7be243b553168bf3876af98d7d696147c0364931"
+    },
+    {
+      "bytes": 965,
+      "path": "results/2026-08-10-hf-fixed-probe/RAW_REPORT.md",
+      "sha256": "ed549753baf50fc3740d81a3e1733ae891ec10e3b4f549cdcbdeb1803ac18c29"
+    },
+    {
+      "bytes": 3055,
+      "path": "results/2026-08-10-hf-fixed-probe/billing_audit.json",
+      "sha256": "d3a9382cde1e2c2b2f9cd5665a9b287318753ad63f1f80cde60ec1fca92e3476"
+    },
+    {
+      "bytes": 16763,
+      "path": "results/2026-08-10-hf-fixed-probe/eggroll_allrouters_sigma01.eggroll.jsonl",
+      "sha256": "dd83872523bacfd4d67bd0e5e285badbcdabf301e6e81bcb53826c8c5ba0d1c2"
+    },
+    {
+      "bytes": 1076,
+      "path": "results/2026-08-10-hf-fixed-probe/statistical_audit.json",
+      "sha256": "477ba317d1f828592fa7607c2bf409d4ff9abb264e73874ecd69898c9c29852f"
+    },
+    {
+      "bytes": 58718,
+      "path": "results/2026-08-10-hf-fixed-probe/summary.json",
+      "sha256": "6f2a68cc60011e9579174c654e1823c6b91a3197972fce97b00076063b92bda7"
+    }
+  ],
+  "schema": "agillm43.eggroll.publication.v24"
+}
