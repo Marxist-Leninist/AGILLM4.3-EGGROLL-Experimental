@@ -1,8 +1,11 @@
 {
+  "canonical_huggingface_repo": "MarxistLeninist/AGILLM-4.3-EGGROLL-Experimental",
   "checkpoint_step": 1777105,
   "checkpoint_upload_commit_sha": "a6850e897f3e32d45e6ed89ba1403a774c2db7d7",
-  "code_repo": "OpenTransformer/AGILLM-4.3-EGGROLL-Experimental",
+  "code_repo": "MarxistLeninist/AGILLM-4.3-EGGROLL-Experimental",
   "completed_utc": "2026-08-09T23:20:24Z",
+  "legacy_huggingface_mirror": "OpenTransformer/AGILLM-4.3-EGGROLL-Experimental",
+  "legacy_mirror_note": "OpenTransformer public storage is full; canonical publication is under MarxistLeninist.",
   "repo": "MarxistLeninist/AGILLM-4.3-EGGROLL-Experimental",
   "schema": "agillm43.eggroll.hf-upload.v1",
   "status": "complete",

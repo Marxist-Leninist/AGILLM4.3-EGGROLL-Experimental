@@ -18,10 +18,10 @@ The implementation is inspired by **Evolution Strategies at the Hyperscale**, wh
 ## Published locations
 
 - GitHub source: `Marxist-Leninist/AGILLM4.3-EGGROLL-Experimental`
-- Hugging Face code/model card: `OpenTransformer/AGILLM-4.3-EGGROLL-Experimental`
-- Hugging Face frozen checkpoint mirror: `MarxistLeninist/AGILLM-4.3-EGGROLL-Experimental`
+- **Canonical Hugging Face repository:** `MarxistLeninist/AGILLM-4.3-EGGROLL-Experimental`
+- Legacy Hugging Face code/documentation mirror: `OpenTransformer/AGILLM-4.3-EGGROLL-Experimental`
 
-The checkpoint uses the second authorised account because the OpenTransformer account has reached its public-storage allowance. The code and metadata remain mirrored under OpenTransformer.
+`MarxistLeninist` is the main Hugging Face account and contains the code, model card, metadata, and full frozen checkpoint. `OpenTransformer` has reached its public-storage allowance and is retained only as a legacy code/documentation mirror; it is not the canonical repository for this experiment.
 
 ## Status
 
@@ -68,5 +68,5 @@ Conservative starting settings are population 8, rank 1, one router per event, 1
 - `agillm43_singlefile_intelligence_v23_eggroll_experimental.py`: complete single-file trainer and inference runtime.
 - `EXPERIMENT.md`: design, estimator, safety boundaries, and A/B protocol.
 - `EXPERIMENT_MANIFEST.json`: hashes, checkpoint lineage, hardlink snapshot receipt, and test record.
-- Hugging Face checkpoint mirror `base_checkpoint/`: exact block-sharded package used as the experiment base.
+- Canonical Hugging Face `base_checkpoint/`: exact block-sharded package used as the experiment base.
 - `launch_eggroll_experiment.sh`: dry-run-first launch generated from the live production command.

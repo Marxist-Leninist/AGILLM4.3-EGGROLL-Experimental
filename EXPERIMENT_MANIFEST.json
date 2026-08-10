@@ -326,16 +326,18 @@
   },
   "production_trainer_untouched": true,
   "publication": {
+    "canonical_account": "MarxistLeninist",
     "checkpoint_remote_files": 45,
     "checkpoint_remote_lfs_files": 36,
     "checkpoint_remote_total_bytes": 7290562423,
-    "checkpoint_storage_note": "OpenTransformer public storage allowance reached; checkpoint package mirrored under the second authorised account.",
+    "checkpoint_storage_note": "MarxistLeninist is canonical and hosts the full checkpoint. OpenTransformer public storage is full and remains a legacy code/documentation mirror only.",
     "checkpoint_upload_commit_sha": "a6850e897f3e32d45e6ed89ba1403a774c2db7d7",
     "checkpoint_upload_status": "complete",
     "github_repo": "Marxist-Leninist/AGILLM4.3-EGGROLL-Experimental",
     "huggingface_checkpoint_repo": "MarxistLeninist/AGILLM-4.3-EGGROLL-Experimental",
-    "huggingface_code_commit_sha_at_verification": "5b318aa2517ea2f636033266fe5bf8b12122b081",
-    "huggingface_code_repo": "OpenTransformer/AGILLM-4.3-EGGROLL-Experimental"
+    "huggingface_code_repo": "MarxistLeninist/AGILLM-4.3-EGGROLL-Experimental",
+    "huggingface_legacy_mirror": "OpenTransformer/AGILLM-4.3-EGGROLL-Experimental",
+    "huggingface_main_repo": "MarxistLeninist/AGILLM-4.3-EGGROLL-Experimental"
   },
   "schema": "agillm43.eggroll.experiment.bundle.v1",
   "tests": {
